@@ -1,0 +1,22 @@
+[
+  {
+    "id": 1,
+    "task": "ir al super",
+    "completed": false
+  },
+  {
+    "id": 2,
+    "task": "lavar el auto",
+    "completed": false
+  },
+  {
+    "id": 3,
+    "task": "cocinar para lola",
+    "completed": true
+  },
+  {
+    "id": 4,
+    "task": "lavar la ropa",
+    "completed": false
+  }
+]
