@@ -16,7 +16,7 @@ function TodoItem({ todo, onComplete, onDeleteItem }) {
     <div style={getStyle()}>
       <input type="checkbox" checked={todo.completed} onChange={() => onComplete(todo.id)}></input>
       {todo.task}
-      <button className="add-btn" onClick={() => onDeleteItem(todo.id)}>
+      <button className="clear-btn" onClick={() => onDeleteItem(todo.id)}>
         X
       </button>
     </div>
