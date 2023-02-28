@@ -1,12 +1,22 @@
 .container {
-  display: flex;
-  justify-content: center;
+  margin: 0 auto;
   border: 1px solid pink;
   padding: 10px;
+  background-color: lightpink;
+  width: 50%;
+  display: flex;
+  flex-direction: column;
 }
 
 .add-btn {
-  display: flex;
-  background-color: blueviolet;
+  border: none;
+  background-color: lightgreen;
   color: #ffffff;
+}
+
+.clear-btn {
+  border: none;
+  background-color: tomato;
+  color: #ffffff;
+  justify-content: flex-end;
 }
